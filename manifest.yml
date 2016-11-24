@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 128M
+  instances: 1
+  domain: mybluemix.net
+  name: hackathon-uol
+  host: hackathon-uol
+  disk_quota: 1024M
+  services:
+  - ClearDB MySQL Database-jc
+  buildpack: php_buildpack
